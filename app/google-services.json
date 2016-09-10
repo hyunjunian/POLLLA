@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641338616939",
+    "firebase_url": "https://pollla-cfbb2.firebaseio.com",
+    "project_id": "pollla-cfbb2",
+    "storage_bucket": "pollla-cfbb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641338616939:android:d538dcaba42ccedc",
+        "android_client_info": {
+          "package_name": "com.polllabears.www.pollla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641338616939-v0nnmiafbsl9pmckm2mhs0s4ursipip9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.polllabears.www.pollla",
+            "certificate_hash": "0C6D21BE19BADA9C6FBA9CC77A8072766802A170"
+          }
+        },
+        {
+          "client_id": "641338616939-enmtfi6q66h1q1d48cds0cdb1te5ngpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgwquKKX-VrdcQ6mPzFB0-s_5Ktowv9M0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641338616939-enmtfi6q66h1q1d48cds0cdb1te5ngpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
