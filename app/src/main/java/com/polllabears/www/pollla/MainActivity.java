@@ -126,6 +126,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 return true;
             case R.id.action_settings:
                 return true;
+            case R.id.user_page:
+                //to do somthing for loading user page
+                Intent intent_user_page = new Intent(MainActivity.this, UserPageActivity.class);
+                startActivity(intent_user_page);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
