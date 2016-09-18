@@ -26,7 +26,7 @@ public class TimelineActivity extends AppCompatActivity {
         }
 
         PostAdapter adapter = new PostAdapter(this, cardList);
-        rvView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true));
+        rvView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         rvView.setAdapter(adapter);
     }
 }
