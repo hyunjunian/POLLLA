@@ -15,4 +15,8 @@
         android:id="@+id/user_page"
         android:title="User Page"
         />
+    <item
+        android:id="@+id/timeline"
+        android:title="TIMELINE"
+        />
 </menu>
