@@ -1,4 +1,4 @@
-package com.polllabears.www.pollla;
+package com.polllabears.www.pollla.model;
 
 /**
  * Created by hyunjunjeon on 9/11/16.
@@ -11,6 +11,12 @@ public class Card {
     private String photoUrl;
 
     public Card() {
+    }
+
+    //a temporary constructor by Hyerin
+    public Card(String name, String text){
+        this.text = text;
+        this.name = name;
     }
 
     public Card(String text, String name, String photoUrl) {

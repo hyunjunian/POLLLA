@@ -22,6 +22,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.polllabears.www.pollla.model.Card;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
@@ -127,9 +128,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             case R.id.action_settings:
                 return true;
             case R.id.user_page:
-                //to do somthing for loading user page
-                Intent intent_user_page = new Intent(MainActivity.this, UserPageActivity.class);
-                startActivity(intent_user_page);
+                //to do something for loading user page
+                startActivity(new Intent(this, UserPageActivity.class));
+                return true;
+            case R.id.timeline:
+                startActivity(new Intent(this, TimelineActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
